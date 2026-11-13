@@ -1,0 +1,145 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080d18">
+  <meta name="description" content="JARVIS 2.0 — интеллектуальный персональный ИИ-помощник">
+  <title>JARVIS 2.0 ULTIMATE</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+
+    <header class="topbar">
+      <div class="brand">
+        <div class="logo">J</div>
+        <div>
+          <h1>JARVIS <span>2.0</span></h1>
+          <p>ULTIMATE INTELLIGENCE SYSTEM</p>
+        </div>
+      </div>
+      <div class="status">
+        <span class="status-dot"></span>
+        СИСТЕМА ГОТОВА
+      </div>
+    </header>
+
+    <main>
+      <section class="welcome">
+        <p class="eyebrow">PERSONAL AI ASSISTANT</p>
+        <h2>Добро пожаловать.</h2>
+        <p>Я JARVIS. Чем могу помочь?</p>
+        <div class="system-info">
+          <span>● Центральное ядро</span>
+          <span>● Модульная архитектура</span>
+          <span>● Русский язык</span>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-heading">
+          <h3>Интеллектуальные модули</h3>
+          <span>20 направлений</span>
+        </div>
+
+        <div class="modules">
+          <button class="module active" data-mode="general">
+            <span>◈</span><b>Главный ИИ</b><small>Универсальный помощник</small>
+          </button>
+          <button class="module" data-mode="code">
+            <span>⌘</span><b>Code Master</b><small>Программирование и разработка</small>
+          </button>
+          <button class="module" data-mode="cyber">
+            <span>◉</span><b>Cyber Security</b><small>Защита и кибербезопасность</small>
+          </button>
+          <button class="module" data-mode="clash">
+            <span>♛</span><b>Clash Royale</b><small>Колоды, тактики и стратегии</small>
+          </button>
+          <button class="module" data-mode="chess">
+            <span>♟</span><b>Chess Master</b><small>Шахматы и анализ партий</small>
+          </button>
+          <button class="module" data-mode="pubg">
+            <span>◎</span><b>PUBG Intelligence</b><small>Тактики и игровые советы</small>
+          </button>
+          <button class="module" data-mode="study">
+            <span>⌗</span><b>Study Master</b><small>Учёба и подготовка к ЕГЭ</small>
+          </button>
+          <button class="module" data-mode="sport">
+            <span>◇</span><b>Sport Intelligence</b><small>Тренировки и восстановление</small>
+          </button>
+          <button class="module" data-mode="web">
+            <span>◎</span><b>Web Intelligence</b><small>Поиск и анализ информации</small>
+          </button>
+          <button class="module" data-mode="life">
+            <span>▦</span><b>Life Assistant</b><small>Планы, задачи и расписание</small>
+          </button>
+          <button class="module" data-mode="media">
+            <span>✧</span><b>Media Studio</b><small>Изображения и медиа</small>
+          </button>
+          <button class="module" data-mode="documents">
+            <span>▤</span><b>Document Master</b><small>Документы и файлы</small>
+          </button>
+          <button class="module" data-mode="language">
+            <span>文</span><b>Language Master</b><small>Языки и переводы</small>
+          </button>
+          <button class="module" data-mode="ios">
+            <span>⌘</span><b>iPhone Control</b><small>Интеграция с iOS</small>
+          </button>
+          <button class="module" data-mode="memory">
+            <span>◌</span><b>Smart Memory</b><small>Память и предпочтения</small>
+          </button>
+          <button class="module" data-mode="projects">
+            <span>⌘</span><b>Project Builder</b><small>Создание приложений и сайтов</small>
+          </button>
+          <button class="module" data-mode="agents">
+            <span>◇</span><b>Multi-Agent</b><small>Команда ИИ-специалистов</small>
+          </button>
+          <button class="module" data-mode="research">
+            <span>⌕</span><b>Research Lab</b><small>Исследования и аналитика</small>
+          </button>
+          <button class="module" data-mode="security">
+            <span>⬡</span><b>Security Guard</b><small>Контроль безопасности</small>
+          </button>
+          <button class="module" data-mode="evolution">
+            <span>↗</span><b>Self Evolution</b><small>Развитие и улучшение системы</small>
+          </button>
+        </div>
+      </section>
+
+      <section class="chat-panel">
+        <div class="chat-heading">
+          <div>
+            <h3>Центр общения</h3>
+            <p id="activeMode">Активен: Главный ИИ</p>
+          </div>
+          <button id="clearChat" class="clear-button">Очистить</button>
+        </div>
+
+        <div id="chatMessages" class="messages">
+          <div class="message assistant">
+            <span class="message-name">JARVIS</span>
+            <p>Все модули представлены в интерфейсе. Выбери направление или задай мне любой вопрос.</p>
+          </div>
+        </div>
+
+        <form id="chatForm" class="chat-form">
+          <textarea id="userInput" rows="1"
+            placeholder="Напиши своё сообщение..." required></textarea>
+          <button type="submit" id="sendButton">➤</button>
+        </form>
+        <p class="privacy-note">JARVIS 2.0 ULTIMATE · Контроль важных действий остаётся за пользователем</p>
+      </section>
+    </main>
+
+    <footer>
+      <span>JARVIS 2.0 ULTIMATE</span>
+      <span>BUILT FOR THE FUTURE</span>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
