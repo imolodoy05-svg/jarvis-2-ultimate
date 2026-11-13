@@ -1,0 +1,19 @@
+
+{
+  "id": "/",
+  "name": "JARVIS 2.0 ULTIMATE",
+  "short_name": "JARVIS",
+  "description": "Персональный интеллектуальный ИИ-помощник",
+  "lang": "ru",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#080d18",
+  "theme_color": "#080d18",
+  "categories": [
+    "productivity",
+    "utilities",
+    "education"
+  ]
+}
